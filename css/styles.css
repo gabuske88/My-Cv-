@@ -1,28 +1,31 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Vollkorn', serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #f8f2eb;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #59372E;
+	color: aliceblue;
+
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #f8e8d5;
+	color: rgb(0, 0, 0);
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #fcf5ed;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +39,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #facaa7;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +51,7 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.Poderytefont {
+font-family: 'Lobster', cursive;
 }
